@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-  <h1>hellow im kiran syed and im aiman friend</h1>
-</body>
-</html>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Weather App </title>
+  <link rel="shortcut icon" type="image" href="title.png" class="icon">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="card ">
+    <div class="search">
+      <input type="text" placeholder="Enter Country or  City Name ..." spellcheck="false" >
+      <button class="fa-solid fa-magnifying-glass icon2"></button>
+    </div>
+    <div class="weather">
+      <img src="rain.png" class="weather-icon" width="170px" height="170px">
+      <h1 class="temp"></h1>
+      <h2 class="city"></h2>
+
+      <div class="details">
+        <div class="col">
+          <img src="humidity.png" width="80px">
+          <div>
+            <p class="humidity"></p>
+            <p class="para"></p>
+          </div>
+        </div>
+        <div class="col">
+          <i class="fa-solid fa-wind icon"></i>
+          <div>
+            <p class="wind">50km/h </p>
+            <p class="para">Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
